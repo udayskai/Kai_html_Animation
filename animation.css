@@ -1,0 +1,445 @@
+
+body{
+    background-image: url(./img/4k-white-wallpaper.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+
+li{
+    list-style: none;
+}
+h1:hover{
+    height:800px;
+    width: 160px;
+    background-color: rgba(174, 180, 173, 0.767);
+}
+
+header{
+    height:50px;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    color: whitesmoke;
+    font-size: 30px;
+    position: fixed;
+    top :0;
+    left: 0%;
+    z-index: 1;
+    padding-left: 0.0cm;
+    cursor: pointer;
+}
+
+
+
+h1{
+    
+    font-size:25px;
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(102, 102, 102);
+    width: 140px;
+    margin-top: 50px;
+    height:300px;
+}
+
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* div<class="iteam 1"  start here ...........1111111111111111........*/
+p{
+    font-size: 7cm;
+    color: black;
+    margin: auto;
+    width: 500px;
+    height:250px;
+    text-align: center;
+
+}
+p:hover{
+    background-color:rgba(102, 51, 153, 0);
+    color:rgba(168, 150, 159, 0);
+}
+
+div.circle1{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(250, 250, 250);
+            border-radius:100%;
+            position: absolute;
+            top: 33;
+            left: 183;
+            animation-name: circle1;
+            animation-duration: 0.4s;
+            animation-timing-function:cubic-bezier(0,-0.02, 0.99, 0.98);
+            animation-iteration-count: infinite;
+            animation-direction: alternate;  
+        
+          }
+
+             @keyframes circle1{
+              10%{left:183px; top:45px; background-color: rgb(251, 251, 251)}
+              15%{left:183px; top:50px;background-color: rgb(250, 250, 250)}
+              20%{left:183px; top:73px;background-color: rgb(246, 246, 246)}
+              30%{left:183px; top:85px;background-color: rgb(219, 103, 64)}
+              35%{left:183px; top:120px;background-color: rgb(245, 245, 245)}
+              40%{left:183px; top:130px;background-color: rgb(219, 103, 64)}
+              42%{left:183px; top:145px;background-color: rgb(251, 251, 251)}
+              43%{left:183px; top:165px;background-color: rgb(246, 246, 246)}
+              43%{left:183px; top:170px;background-color: rgb(219, 103, 64)}
+              45%{left:183px; top:180px;background-color: rgb(255, 255, 255)}
+              50%{left:183px; top:200px;background-color: rgb(219, 103, 64)}
+              49%{left:183px; top:200px;background-color: rgb(219, 103, 64)}
+              50%{left:183px; top:200px;background-color: rgb(255, 255, 255)}
+              51%{left:187px; top:200px;background-color: rgb(219, 103, 64)}
+
+              52%{left:190px; top:210px; background-color: rgb(219, 103, 64)}
+              54%{left:210px; top:215px;background-color: rgb(221, 153, 50)}
+              54%{left:240px; top:218px;background-color: rgb(255, 255, 255)}
+              56%{left:250px; top:221px;background-color: rgb(219, 103, 64)}
+              57%{left:270px; top:222px;background-color: rgb(219, 103, 64)}
+              58%{left:275px; top:222px;background-color: rgb(255, 252, 251)}
+              67%{left:290px; top:200px;background-color: rgb(219, 103, 64)}
+              68%{left:300px; top:180px;background-color: rgb(219, 103, 64)}
+              79%{left:300px; top:175px;background-color: rgb(219, 103, 64)}
+              73%{left:300px; top:160px;background-color: rgb(255, 255, 255)}
+              78%{left:300px; top:125px;background-color: rgb(236, 215, 208)}
+              80%{left:300px; top:80px;background-color: rgb(219, 103, 64)}
+              100%{left:300px; top:56px;background-color: rgb(219, 103, 64)} 
+          }
+
+div.item1:hover{
+    width: 650px;
+    height:300;
+    background-color:rgba(0, 0, 0, 0.781) ;
+    
+}
+div.item1{ 
+    width: 500px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top:10;
+    margin-left:10;
+    position:fixed; 
+    top: 50;
+    left: 150;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0.75s;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+
+
+
+
+
+
+/* div<class="iteam _2"  start here ...........2222222222222222222222222........*/
+p2{
+    font-size: 7cm;
+    color: rgb(255, 252, 209);
+    margin: auto;
+    width: 500px;
+    height:250px;
+    text-align: center;
+
+}
+
+p2:hover{
+    background-color:rgba(102, 51, 153, 0);
+    color:rgba(168, 150, 159, 0);
+}
+
+
+div.item2:hover{
+    width: 650px;
+    height:300;
+    background-color:rgba(98, 98, 98, 0.856);}
+    
+
+div.item2{ 
+    width: 500px;
+    height: 250px;
+    background-color: rgba(26, 207, 101, 0);
+   
+    position: fixed;
+    top: 50px;
+    left: 950;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-delay: 0.75s;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    
+}
+
+div.circle2{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(167, 157, 157);
+    border-radius:100%;
+    position: absolute;
+    top: 33;
+    left: 183;
+    animation-name: circle2;
+    animation-duration: 0.3s;
+    animation-timing-function:cubic-bezier(0,-0.02, 0.99, 0.98);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+
+  }
+  @keyframes circle2{
+
+    
+        10%{left:181px; top:34px; background-color: rgb(251, 251, 251)}
+        15%{left:181px; top:50px;background-color: rgb(250, 250, 250)}
+        20%{left:181px; top:73px;background-color: rgb(246, 246, 246)}
+        30%{left:181px; top:85px;background-color: rgb(219, 103, 64)}
+        35%{left:181px; top:120px;background-color: rgb(245, 245, 245)}
+        40%{left:181px; top:130px;background-color: rgb(219, 103, 64)}
+        42%{left:181px; top:145px;background-color: rgb(251, 251, 251)}
+        43%{left:181px; top:165px;background-color: rgb(246, 246, 246)}
+        43%{left:181px; top:170px;background-color: rgb(219, 103, 64)}
+        45%{left:181px; top:180px;background-color: rgb(255, 255, 255)}
+        50%{left:181px; top:200px;background-color: rgb(219, 103, 64)}
+        49%{left:181px; top:210px;background-color: rgb(219, 103, 64)}
+        50%{left:181px; top:215px;background-color: rgb(255, 255, 255)}
+        51%{left:181px; top:220px;background-color: rgb(219, 103, 64)}
+
+        52%{left:190px; top:220px; background-color: rgb(219, 103, 64)}
+        54%{left:210px; top:219px;background-color: rgb(221, 153, 50)}
+        55%{left:240px; top:217px;background-color: rgb(255, 255, 255)}
+        56%{left:250px; top:216px;background-color: rgb(219, 103, 64)}
+        57%{left:270px; top:215px;background-color: rgb(219, 103, 64)}
+        58%{left:280px; top:215px;background-color: rgb(255, 252, 251)}
+        67%{left:290px; top:190px;background-color: rgb(219, 103, 64)}
+        68%{left:300px; top:192px;background-color: rgb(219, 103, 64)}
+
+        71%{left:300px; top:175px;background-color: rgb(219, 103, 64)}
+        72%{left:295px; top:160px;background-color: rgb(255, 255, 255)}
+        73%{left:290px; top:145px;background-color: rgb(236, 215, 208)}
+        74%{left:285px; top:120px;background-color: rgb(236, 215, 208)}
+        75%{left:280px; top:90px;background-color: rgb(236, 215, 208)}
+
+        76%{left:275px; top:80px;background-color: rgb(236, 215, 208)}
+        77%{left:265px; top:75px;background-color: rgb(236, 215, 208)}
+        78%{left:245px; top:70px;background-color: rgb(236, 215, 208)}
+        80%{left:230px; top:60px;background-color: rgb(219, 103, 64)}
+        85%{left:210px; top:56px;background-color: rgb(219, 103, 64)}
+        88%{left:205px; top:44px;background-color: rgb(219, 103, 64)} 
+        89%{left:190px; top:40px;background-color: rgb(219, 103, 64)} 
+        100%{left:180px; top:35px;background-color: rgb(219, 103, 64)}  
+    }
+
+
+
+
+/* div<class="iteam _"  start here ...........3333333333333333333........*/
+
+
+p3{
+    font-size: 7cm;
+    color: black;
+    margin: auto;
+    width: 500px;
+    height:250px;
+    text-align: center;
+
+}
+p3:hover{
+    background-color:rgba(102, 51, 153, 0);
+    color:rgba(168, 150, 159, 0);
+}
+
+div.item3:hover{
+    width: 650px;
+    height:300;
+    background-color:rgba(104, 104, 104, 0.828);
+
+} 
+
+div.item3{ 
+    width: 500px;
+    height:250px;
+    background-color: rgba(195, 33, 33, 0);
+   
+    position:fixed;
+    top: 400;
+    left: 150;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-delay: 0.75s;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+    
+}
+
+
+div.circle3{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(253, 84, 6);
+    border-radius:100%;
+    position: absolute;
+    top: 33;
+    left: 230;
+    animation-name: circle3;
+    animation-duration: 0.3s;
+    animation-timing-function:cubic-bezier(0,-0.02, 0.99, 0.98);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+
+  }
+
+  @keyframes circle3{
+      
+    10%{left:230px; top:33px; background-color: rgb(251, 251, 251)}
+    15%{left:225px; top:43px;background-color: rgb(250, 250, 250)}
+    20%{left:220px; top:55px;background-color: rgb(246, 246, 246)}
+    21%{left:215px; top:75px;background-color: rgb(219, 103, 64)}
+    22%{left:210px; top:95px;background-color: rgb(245, 245, 245)}
+    23%{left:195px; top:105px;background-color: rgb(219, 103, 64)}
+    24%{left:180px; top:115px;background-color: rgb(251, 251, 251)}
+    25%{left:185px; top:125px;background-color: rgb(246, 246, 246)}
+    26%{left:180px; top:145px;background-color: rgb(219, 103, 64)}
+    28%{left:175px; top:160px;background-color: rgb(255, 255, 255)}
+    30%{left:172px; top:180px;background-color: rgb(219, 103, 64)}
+    32%{left:170px; top:200px;background-color: rgb(219, 103, 64)}
+    33%{left:165px; top:215px;background-color: rgb(255, 255, 255)}
+    35%{left:160px; top:220px;background-color: rgb(219, 103, 64)}
+
+
+
+    52%{left:160px; top:220px; background-color: rgb(219, 103, 64)}
+    54%{left:162px; top:210px;background-color: rgb(221, 153, 50)}
+    55%{left:176px; top:190px;background-color: rgb(255, 255, 255)}
+    56%{left:188px; top:150px;background-color: rgb(219, 103, 64)}
+    57%{left:202px; top:135px;background-color: rgb(219, 103, 64)}
+    58%{left:212px; top:100px;background-color: rgb(255, 252, 251)}
+    61%{left:227px; top:65px;background-color: rgb(219, 103, 64)}
+    62%{left:232px; top:38px;background-color: rgb(219, 103, 64)}
+
+    63%{left:230px; top:33px;background-color: rgb(219, 103, 64)}
+    64%{left:240px; top:53px;background-color: rgb(255, 255, 255)}
+    65%{left:250px; top:73px;background-color: rgb(219, 100, 60)}
+    66%{left:260px; top:93px;background-color: rgb(207, 91, 53)}
+    67%{left:270px; top:113px;background-color: rgb(236, 215, 208)}
+    68%{left:280px; top:133px;background-color: rgb(233, 94, 47)}
+    69%{left:290px; top:163px;background-color: rgb(236, 215, 208)}
+    70%{left:300px; top:200px;background-color: rgb(195, 93, 59)}
+    71%{left:310px; top:225px;background-color: rgb(236, 215, 208)}
+
+
+    72%{left:350px; top:210px;background-color: rgb(219, 103, 64)}
+    73%{left:295px; top:180px;background-color: rgb(219, 103, 64)}
+    75%{left:285px; top:170px;background-color: rgb(219, 103, 64)} 
+    76%{left:283px; top:160px;background-color: rgb(219, 103, 64)}
+
+    78%{left:270px; top:160px;background-color: rgb(219, 103, 64)}
+    79%{left:260px; top:160px;background-color: rgb(219, 103, 64)}
+    80%{left:250px; top:160px;background-color: rgb(219, 103, 64)} 
+    81%{left:200px; top:160px;background-color: rgb(219, 103, 64)} 
+    82%{left:160px; top:160px;background-color: rgb(219, 103, 64)} 
+    83%{left:180px; top:160px;background-color: rgb(219, 103, 64)} 
+    84%{left:230px; top:160px;background-color: rgb(219, 103, 64)} 
+    85%{left:280px; top:160px;background-color: rgb(219, 103, 64)} 
+
+    86%{left:275px; top:153px;background-color: rgb(219, 103, 64)} 
+    87%{left:265px; top:143px;background-color: rgb(219, 103, 64)} 
+    88%{left:255px; top:123px;background-color: rgb(219, 103, 64)} 
+    89%{left:245px; top:83px;background-color: rgb(219, 103, 64)} 
+    90%{left:235px; top:48px;background-color: rgb(219, 103, 64)} 
+    91%{left:230px; top:39px;background-color: rgb(219, 103, 64)} 
+
+    
+
+    100%{left:233px; top:34px;background-color: rgb(219, 103, 64)}  
+
+}
+  
+  
+  /* div<class="iteam _"  start here ...........444444444444444444........*/
+
+
+
+
+p4{
+    font-size: 7cm;
+    color: black;
+    margin: auto;
+    width: 500px;
+    height:250px;
+    text-align: center;
+
+}
+p4:hover{
+    background-color:rgba(102, 51, 153, 0);
+    color:rgba(168, 150, 159, 0);
+}
+div.item4:hover{
+    width: 650px;
+    height:300;
+    background-color:rgba(0, 0, 0, 0.87) ;}
+
+
+div.item4{ 
+    width: 500px;
+    height: 250px;
+    background-color: rgba(203, 223, 89, 0);
+   
+    position: fixed;
+    top: 400;
+    left: 950;
+    transition-property: all;
+    transition-duration: 1.5s;
+    transition-delay: 0.75s;
+    transition-timing-function:cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+    }
+ 
+
+    div.circle4 {
+        width: 30px;
+        height: 30px;
+        background-color:  rgb(219, 103, 64);
+        border-radius:100%;
+        position: absolute;
+        top: 33;
+        left: 230;
+        animation-name: circle4;
+        animation-duration: 0.5s;
+        animation-timing-function:cubic-bezier(0,-0.02, 0.99, 0.98);
+        animation-iteration-count: infinite;
+        animation-direction: alternate; 
+    }
+
+    @keyframes circle4{
+      
+        0%{left:170px; top:34px; background-color:  rgb(219, 103, 64)}
+        15%{left:190px; top:50px;background-color:  rgb(253, 200, 182)}
+        20%{left:220px; top:80px;background-color:  rgb(219, 103, 64)}
+        
+        63%{left:230px; top:120px;background-color: rgb(219, 103, 64)}
+        64%{left:237px; top:150px;background-color: rgb(255, 255, 255)}
+        65%{left:235px; top:170px;background-color: rgb(199, 101, 68)}
+        66%{left:235px; top:190px;background-color: rgb(236, 215, 208)}
+        67%{left:235px; top:200px;background-color: rgb(192, 98, 67)}
+        68%{left:235px; top:220px;background-color: rgb(201, 97, 62)}
+        69%{left:235px; top:210px;background-color: rgb(236, 215, 208)}
+        70%{left:235px; top:180px;background-color: rgb(202, 107, 75)}
+        71%{left:235px; top:160px;background-color: rgb(236, 215, 208)}
+
+
+        72%{left:240px; top:145px;background-color: rgb(219, 103, 64)}
+        73%{left:250px; top:130px;background-color: rgb(219, 103, 64)}
+        75%{left:260px; top:105px;background-color: rgb(219, 103, 64)} 
+        76%{left:270px; top:85px;background-color: rgb(219, 103, 64)}
+        77%{left:280px; top:65px;background-color: rgb(255, 255, 255)}
+        78%{left:290px; top:50px;background-color: rgb(219, 103, 64)}
+        79%{left:300px; top:40px;background-color: rgb(219, 103, 64)} 
+        100%{left:305px; top:35px;background-color: rgb(255, 255, 255)}
+    }
